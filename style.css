@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 100px;
+  }
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  background-color: #f9dafd;
+  color:rgb(0, 0, 0);
+  background: rgb(2,0,36);
+  background: rgb(248,209,246);
+  background: linear-gradient(90deg, rgba(248,209,246,1) 34%, rgba(230,255,215,1) 60%, rgba(0,212,255,1) 100%);
+
+}
+
+a {
+  color: #d6124d;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+h1{
+  color:#d52640;
+  margin-left: 20px;
+  text-align: center;
+}
+img{
+  width: 30%;
+  margin-left: 20px;
+}
+
+div{
+  background-color: #ffffff;
+  padding: 10px;
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 4px;
+
+}
+.container_text_center{
+  text-align: center;
+}
+.card{
+  text-align: left;
+}
+.no_style{
+  list-style: none;
+}
+.crazy_card{
+  background-image: linear-gradient(to left, #46b0a9 0%, #967aa7 100%);
+  color: white;
+}
